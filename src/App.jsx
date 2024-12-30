@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { DatePicker } from "antd";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+        <DatePicker />;
       </div>
       Hello man i am new here
     </>
